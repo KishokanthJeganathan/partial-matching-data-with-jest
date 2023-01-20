@@ -1,6 +1,3 @@
-import { render, screen } from "@testing-library/react";
-import Home from "@/pages/index";
-
 describe("testing for object and array data", () => {
   it("testing identical objects with toEqual", () => {
     const object = {
